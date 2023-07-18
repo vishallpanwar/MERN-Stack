@@ -1,0 +1,10 @@
+.borderCSS{
+
+    width: 500px;
+    height: 300px;
+    background-color: palevioletred;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+}
