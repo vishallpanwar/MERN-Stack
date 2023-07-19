@@ -1,0 +1,14 @@
+.box-model{
+    width: 400px;
+    height: 400px;
+    background-color: maroon;
+}
+
+
+
+
+/* Agar input field ke andr changes krne hai to input tahe (without . # ) ke andr properties likhdo */
+
+input{
+    padding-left: 10px;
+}
