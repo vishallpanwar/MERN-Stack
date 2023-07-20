@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo{
+    width: 30%;
+    line-height: 80px;
+    text-align: center;
+    background-color: orange;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    height: 80px;
+    background-color: slateblue;
+    float: right;
+}
+
+ul{
+    list-style: none;             /* List me se dots htjyenge */ 
+    text-align: right;
+}
+
+li{
+    display: inline-block;         /* Saaare list items */
+    padding: 0 10px ;
+}
