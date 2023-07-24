@@ -1,0 +1,46 @@
+.father{
+    width: 600px;
+    height: 300px;
+    background-color: palevioletred;
+    position: relative;                   /* Saari child isi ke hisaab se chlenge i.e. ye fixed rhega */
+}
+
+
+/* Agr chaaro child ki position absolute krdenge to wo father class ke according function krengi har 
+child ke baas same height width hai jiski wjh se wo ek hi jgh aake ek dusre se overlap hojyengi */
+
+.child1{
+    width: 70px;
+    height: 30px;
+    background-color: skyblue;
+    position: absolute;
+    left: 0;
+}
+
+
+.child2{
+    width: 70px;
+    height: 30px;
+    background-color: lightgreen;           /*  Div parent ki 4 div's child classes ko style krdiya */
+    position: absolute;
+    right: 0;
+}  
+ 
+
+.child3{
+    width: 70px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;                                /* Ye right bottom sb boxes ki positions define kr rhe hai */
+}
+
+
+.child4{
+    width: 70px;
+    height: 30px;
+    background-color: wheat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
